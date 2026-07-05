@@ -26,9 +26,11 @@ export interface InfluencerSupplement {
   id: number;
   influencer_id: string;
   supplement_id: number;
+  time_of_day: string | null;
   dosage: string | null;
   frequency: string | null;
   timing: string | null;
+  comparable_alternative: string | null;
   source_video_title: string | null;
   source_video_url: string;
   source_timestamp: string | null;
