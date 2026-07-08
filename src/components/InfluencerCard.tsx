@@ -38,11 +38,6 @@ export function InfluencerCard({
                 {influencer.full_name.charAt(0)}
               </div>
             )}
-            {rank !== undefined && (
-              <div className="absolute -top-1.5 -left-1.5 flex h-6 w-6 items-center justify-center rounded-full bg-blue-600 text-white text-[11px] font-bold ring-2 ring-white">
-                {rank}
-              </div>
-            )}
           </div>
           <div className="min-w-0 flex-1">
             <h3 className="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors truncate text-base leading-snug">
