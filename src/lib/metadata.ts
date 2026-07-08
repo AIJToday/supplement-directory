@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 const SITE = {
   name: "Daily Dose Directory",
   description:
-    "The #1 directory of what top health influencers actually take every day. See exact brands, dosages, timing, and budget-friendly alternatives.",
+    "The #1 directory of supplements the top health influencers actually take every day. See exact brands, dosages, timing, and budget-friendly alternatives.",
   url: "https://www.dailydosedirectory.com",
 };
 

@@ -41,7 +41,7 @@ export function DirectoryItemListSchema({
     "@type": "ItemList",
     name: "YouTube Influencer Supplement Stacks",
     description:
-      "The #1 directory of what top health influencers actually take every day. See exact brands, dosages, timing, and budget-friendly alternatives.",
+      "The #1 directory of supplements the top health influencers actually take every day. See exact brands, dosages, timing, and budget-friendly alternatives.",
     numberOfItems: influencers.length,
     itemListElement: influencers.map((inf, i) => ({
       "@type": "ListItem",

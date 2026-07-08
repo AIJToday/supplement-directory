@@ -31,7 +31,7 @@ export default async function HomePage({
       <div>
         <h1 className="text-3xl font-bold text-gray-900">Supplement Directory</h1>
         <p className="mt-1 text-gray-600">
-          The #1 directory of what top health influencers actually take every day. See exact brands, dosages, timing &amp; budget-friendly alternatives.
+          The #1 directory of supplements the top health influencers actually take every day. See exact brands, dosages, timing &amp; budget-friendly alternatives.
         </p>
       </div>
 
