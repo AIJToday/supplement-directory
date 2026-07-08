@@ -120,7 +120,7 @@ export default async function InfluencerProfilePage({
                 <th className="px-4 py-3 text-left font-bold text-gray-900 w-[12%]">
                   Time of Day
                 </th>
-                <th className="px-4 py-3 text-left font-bold text-gray-900 w-[28%]">
+                <th className="px-4 py-3 text-center font-bold text-gray-900 w-[28%]">
                   Supplement
                 </th>
                 <th className="px-4 py-3 text-left font-bold text-gray-900 w-[22%]">
@@ -144,7 +144,7 @@ export default async function InfluencerProfilePage({
                     <td className="px-4 py-3 text-gray-700 align-top">
                       {idx === 0 ? timeOfDay : ""}
                     </td>
-                    <td className="px-4 py-3 font-medium text-gray-900 align-top">
+                    <td className="px-4 py-3 font-medium text-gray-900 align-top text-center">
                       <div className="flex flex-col items-center gap-1.5">
                         <span>{entry.supplement?.product_name || "—"}</span>
                         {entry.supplement?.amazon_url && (
