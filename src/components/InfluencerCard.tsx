@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ConfidenceBadge } from "@/components/ConfidenceBadge";
 
 export function InfluencerCard({
   influencer,
@@ -70,6 +71,9 @@ export function InfluencerCard({
           <span className="text-sm font-medium text-gray-500 shrink-0">
             {influencer.stack_count ?? 0} supps
           </span>
+          {influencer.avg_confidence && (
+            <ConfidenceBadge confidence={influencer.avg_confidence as "high" | "medium" | "low"} />
+          )}
         </div>
       </div>
 
@@ -110,6 +114,11 @@ export function InfluencerCard({
           <div className="text-sm font-medium text-gray-900">
             {influencer.stack_count ?? 0} supps
           </div>
+          {influencer.avg_confidence && (
+            <div className="mt-1">
+              <ConfidenceBadge confidence={influencer.avg_confidence as "high" | "medium" | "low"} />
+            </div>
+          )}
         </div>
       </div>
     </Link>
