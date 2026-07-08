@@ -25,7 +25,7 @@ export default function RootLayout({
         <header className="border-b border-gray-200">
           <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
             <Link href="/" className="text-xl font-bold tracking-tight">
-              💊 Supplement Directory
+              💊 Daily Dose Directory
             </Link>
             <nav className="flex gap-6 text-sm font-medium text-gray-600">
               <Link href="/" className="hover:text-gray-900 transition-colors">
@@ -55,7 +55,7 @@ export default function RootLayout({
 
         <footer className="border-t border-gray-200 mt-16">
           <div className="mx-auto max-w-6xl px-4 py-6 text-center text-sm text-gray-500">
-            Supplement Directory · Data sourced from public YouTube videos ·
+            Daily Dose Directory · Data sourced from public YouTube videos ·
             We do not endorse any supplement.{" "}
             <Link href="/about" className="underline hover:text-gray-700">
               Full disclaimer
