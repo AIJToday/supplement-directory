@@ -12,7 +12,7 @@ export function OrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Supplement Directory",
-    url: "https://supplementdirectory.com",
+    url: "https://www.dailydosedirectory.com",
     description:
       "A transparent directory of YouTube health & wellness influencers and their documented daily supplement routines — with dosages, brands, timing, and comparable alternatives.",
     foundingDate: "2025",
@@ -49,7 +49,7 @@ export function DirectoryItemListSchema({
       item: {
         "@type": "Person",
         name: inf.full_name,
-        url: `https://supplementdirectory.com/influencers/${inf.id}`,
+        url: `https://www.dailydosedirectory.com/influencers/${inf.id}`,
         description: `${inf.channel_name} — ${inf.stack_count ?? 0} documented supplements`,
       },
     })),
@@ -70,10 +70,10 @@ export function InfluencerSchema(inf: InfluencerWithStack) {
     "@context": "https://schema.org",
     "@type": "Person",
     name: inf.full_name,
-    url: `https://supplementdirectory.com/influencers/${inf.id}`,
+    url: `https://www.dailydosedirectory.com/influencers/${inf.id}`,
     description: inf.bio || `${inf.channel_name} — ${inf.stack_count} documented supplements`,
     image: inf.profile_image_url
-      ? `https://supplementdirectory.com${inf.profile_image_url}`
+      ? `https://www.dailydosedirectory.com${inf.profile_image_url}`
       : undefined,
     affiliation: {
       "@type": "Organization",

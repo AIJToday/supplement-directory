@@ -1,7 +1,7 @@
 import { getAllInfluencers, getAllSupplements } from "@/lib/db";
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://supplementdirectory.com";
+const BASE_URL = "https://www.dailydosedirectory.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const influencers = getAllInfluencers();

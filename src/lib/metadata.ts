@@ -4,7 +4,7 @@ const SITE = {
   name: "Supplement Directory",
   description:
     "The #1 directory of what top health influencers actually take every day. See exact brands, dosages, timing, and budget-friendly alternatives.",
-  url: "https://supplementdirectory.com",
+  url: "https://www.dailydosedirectory.com",
 };
 
 export function baseMetadata(overrides?: Partial<Metadata>): Metadata {

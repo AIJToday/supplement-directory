@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/search", "/admin"],
     },
-    sitemap: "https://supplementdirectory.com/sitemap.xml",
+    sitemap: "https://www.dailydosedirectory.com/sitemap.xml",
   };
 }
