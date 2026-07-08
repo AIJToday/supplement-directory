@@ -45,6 +45,19 @@ async function SupplementDetailWrapper({
           {supp.brand} · {supp.category}
           {supp.form && ` · ${supp.form}`}
         </p>
+        {supp.amazon_url && (
+          <a
+            href={supp.amazon_url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-flex items-center gap-2 rounded-lg bg-amber-400 px-4 py-2 text-sm font-medium text-gray-900 hover:bg-amber-500 transition-colors"
+          >
+            <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13.5 21v-7.5H21V21h-7.5zM3 21v-7.5h7.5V21H3zm0-10.5V3h7.5v7.5H3zm10.5 0V3H21v7.5h-7.5z"/>
+            </svg>
+            Buy on Amazon
+          </a>
+        )}
       </div>
 
       {/* What it does */}

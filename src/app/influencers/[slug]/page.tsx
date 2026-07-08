@@ -120,7 +120,7 @@ export default async function InfluencerProfilePage({
                 <th className="px-4 py-3 text-left font-bold text-gray-900 w-[12%]">
                   Time of Day
                 </th>
-                <th className="px-4 py-3 text-left font-bold text-gray-900 w-[18%]">
+                <th className="px-4 py-3 text-left font-bold text-gray-900 w-[28%]">
                   Supplement
                 </th>
                 <th className="px-4 py-3 text-left font-bold text-gray-900 w-[22%]">
@@ -131,9 +131,6 @@ export default async function InfluencerProfilePage({
                 </th>
                 <th className="px-4 py-3 text-left font-bold text-gray-900 w-[25%]">
                   Comparable Alternative
-                </th>
-                <th className="px-4 py-3 text-center font-bold text-gray-900 w-[10%]">
-                  Buy
                 </th>
               </tr>
             </thead>
@@ -149,6 +146,16 @@ export default async function InfluencerProfilePage({
                     </td>
                     <td className="px-4 py-3 font-medium text-gray-900 align-top">
                       {entry.supplement?.product_name || "—"}
+                      {entry.supplement?.amazon_url && (
+                        <a
+                          href={entry.supplement.amazon_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="ml-2 inline-flex items-center gap-1 rounded bg-amber-400 px-2.5 py-1 text-xs font-medium text-gray-900 hover:bg-amber-500 transition-colors"
+                        >
+                          Amazon
+                        </a>
+                      )}
                     </td>
                     <td className="px-4 py-3 text-gray-700 align-top">
                       {entry.dosage || ""}
@@ -171,20 +178,6 @@ export default async function InfluencerProfilePage({
                     </td>
                     <td className="px-4 py-3 text-gray-600 align-top">
                       {entry.comparable_alternative || "—"}
-                    </td>
-                    <td className="px-4 py-3 text-center align-top">
-                      {entry.supplement?.amazon_url ? (
-                        <a
-                          href={entry.supplement.amazon_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-1 rounded bg-amber-400 px-2.5 py-1 text-xs font-medium text-gray-900 hover:bg-amber-500 transition-colors"
-                        >
-                          Amazon
-                        </a>
-                      ) : (
-                        <span className="text-xs text-gray-300">—</span>
-                      )}
                     </td>
                   </tr>
                 ))
