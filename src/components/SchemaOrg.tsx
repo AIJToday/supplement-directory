@@ -11,7 +11,7 @@ export function OrganizationSchema() {
   const json = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "Supplement Directory",
+    name: "Daily Dose Directory",
     url: "https://www.dailydosedirectory.com",
     description:
       "A transparent directory of YouTube health & wellness influencers and their documented daily supplement routines — with dosages, brands, timing, and comparable alternatives.",

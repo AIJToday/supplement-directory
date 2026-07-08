@@ -42,9 +42,6 @@ export default async function HomePage({
         <FilterBar />
       </div>
 
-      {/* Ad Slot — Between search and grid */}
-      <AdPlaceholder size="leaderboard" bannerSrc="/ad-mid.jpg" />
-
       {influencers.length === 0 ? (
         <div className="rounded-xl border-2 border-dashed border-gray-300 p-12 text-center">
           <p className="text-gray-500 text-lg">No influencers found</p>
@@ -65,6 +62,9 @@ export default async function HomePage({
               </div>
             ))}
           </div>
+
+          {/* Ad Slot — Bottom of page, below all influencer cards */}
+          <AdPlaceholder size="leaderboard" bannerSrc="/ad-mid.jpg" />
 
           <p className="text-xs text-gray-400">
             <Link href="/about" className="underline hover:text-gray-600">

@@ -6,7 +6,7 @@ import { AdPlaceholder } from "@/components/AdPlaceholder";
 import { OrganizationSchema } from "@/components/SchemaOrg";
 
 export const metadata: Metadata = {
-  title: "Supplement Directory — What Influencers Actually Take",
+  title: "Daily Dose Directory — What Influencers Actually Take",
   description:
     "A transparent directory of YouTube influencers and their daily supplement routines. Every entry sourced from videos with timestamps and sponsorship flags.",
 };
