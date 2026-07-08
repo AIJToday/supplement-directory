@@ -145,17 +145,22 @@ export default async function InfluencerProfilePage({
                       {idx === 0 ? timeOfDay : ""}
                     </td>
                     <td className="px-4 py-3 font-medium text-gray-900 align-top">
-                      {entry.supplement?.product_name || "—"}
-                      {entry.supplement?.amazon_url && (
-                        <a
-                          href={entry.supplement.amazon_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="ml-2 inline-flex items-center gap-1 rounded bg-amber-400 px-2.5 py-1 text-xs font-medium text-gray-900 hover:bg-amber-500 transition-colors"
-                        >
-                          Amazon
-                        </a>
-                      )}
+                      <div className="flex flex-col items-center gap-1.5">
+                        <span>{entry.supplement?.product_name || "—"}</span>
+                        {entry.supplement?.amazon_url && (
+                          <a
+                            href={entry.supplement.amazon_url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 rounded bg-amber-400 px-3 py-1.5 text-xs font-medium text-gray-900 hover:bg-amber-500 transition-colors"
+                          >
+                            <svg className="h-3.5 w-3.5" fill="currentColor" viewBox="0 0 24 24">
+                              <path d="M13.5 21v-7.5H21V21h-7.5zM3 21v-7.5h7.5V21H3zm0-10.5V3h7.5v7.5H3zm10.5 0V3H21v7.5h-7.5z"/>
+                            </svg>
+                            Buy on Amazon
+                          </a>
+                        )}
+                      </div>
                     </td>
                     <td className="px-4 py-3 text-gray-700 align-top">
                       {entry.dosage || ""}
