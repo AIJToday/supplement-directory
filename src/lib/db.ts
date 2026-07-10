@@ -239,19 +239,46 @@ export function getSupplementsByBrand(brand: string) {
 export function searchAll(query: string) {
   const d = getDb();
   const q = `%${query}%`;
+
+  // Direct influencer name/channel matches
   const influencers = d
     .prepare(
-      `SELECT id, full_name, channel_name, profile_image_url, 'influencer' as type
+      `SELECT id, full_name, channel_name, profile_image_url, subscriber_count
       FROM influencers WHERE full_name LIKE ? OR channel_name LIKE ? LIMIT 10`
     )
     .all(q, q);
+
+  // Influencers matched via their supplements (name, brand, or category)
+  const influencersBySupp = d
+    .prepare(
+      `SELECT DISTINCT i.id, i.full_name, i.channel_name, i.profile_image_url, i.subscriber_count
+      FROM influencers i
+      JOIN influencer_supplements is_ ON i.id = is_.influencer_id
+      JOIN supplements s ON is_.supplement_id = s.id
+      WHERE s.product_name LIKE ? OR s.brand LIKE ? OR s.category LIKE ?
+      LIMIT 15`
+    )
+    .all(q, q, q);
+
+  // Merge, dedupe by ID — direct name matches first
+  const seen = new Set((influencers as any[]).map((i: any) => i.id));
+  const merged = [...(influencers as any[])];
+  for (const inf of influencersBySupp as any[]) {
+    if (!seen.has(inf.id)) {
+      seen.add(inf.id);
+      merged.push(inf);
+    }
+  }
+
+  // Supplements search (name, brand, and category)
   const supplements = d
     .prepare(
-      `SELECT id, product_name, brand, 'supplement' as type
-      FROM supplements WHERE product_name LIKE ? OR brand LIKE ? LIMIT 10`
+      `SELECT id, product_name, brand, category
+      FROM supplements WHERE product_name LIKE ? OR brand LIKE ? OR category LIKE ? LIMIT 10`
     )
-    .all(q, q);
-  return { influencers, supplements };
+    .all(q, q, q);
+
+  return { influencers: merged.slice(0, 15), supplements };
 }
 
 // ── Write helpers (for seed/import scripts) ──────────────────────────────────

@@ -87,9 +87,12 @@ export default async function SearchPage({
                     href={`/supplements/${supp.id}`}
                     className="flex items-center justify-between rounded-lg border border-gray-200 px-4 py-3 hover:border-gray-400 hover:bg-gray-50 transition-all"
                   >
-                    <span className="font-medium text-gray-900">
-                      {supp.product_name}
-                    </span>
+                    <div>
+                      <span className="font-medium text-gray-900">
+                        {supp.product_name}
+                      </span>
+                      <span className="ml-2 text-xs text-gray-400">{supp.category}</span>
+                    </div>
                     <span className="text-sm text-gray-500">{supp.brand}</span>
                   </Link>
                 ))}
