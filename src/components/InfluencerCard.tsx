@@ -63,9 +63,14 @@ export function InfluencerCard({
                 </span>
               ))}
           </div>
-          <span className="text-sm font-medium text-gray-500 shrink-0">
-            {influencer.stack_count ?? 0} supps
-          </span>
+          <div className="text-right shrink-0">
+            {influencer.subscriber_count && (
+              <div className="text-xs text-gray-400">{influencer.subscriber_count} subs</div>
+            )}
+            <div className="text-sm font-medium text-gray-500">
+              {influencer.stack_count ?? 0} supps
+            </div>
+          </div>
           {influencer.avg_confidence && (
             <ConfidenceBadge confidence={influencer.avg_confidence as "high" | "medium" | "low"} />
           )}
@@ -106,6 +111,9 @@ export function InfluencerCard({
           </div>
         </div>
         <div className="text-right shrink-0">
+          {influencer.subscriber_count && (
+            <div className="text-xs text-gray-400">{influencer.subscriber_count} subs</div>
+          )}
           <div className="text-sm font-medium text-gray-900">
             {influencer.stack_count ?? 0} supps
           </div>
