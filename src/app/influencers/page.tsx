@@ -45,7 +45,7 @@ export default async function InfluencersPage({
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {influencers.map((inf: any, idx: number) => (
-              <div key={inf.id} className="flex items-start gap-2">
+              <div key={inf.id} className="flex items-start gap-2 h-full">
                 <div
                   className={`mt-3 flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
                     idx < 3
