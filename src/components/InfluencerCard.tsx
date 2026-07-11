@@ -20,7 +20,7 @@ export function InfluencerCard({
   return (
     <Link
       href={`/influencers/${influencer.id}`}
-      className="group block h-full rounded-xl border border-gray-200 bg-white p-4 sm:p-5 hover:border-gray-400 hover:shadow-md transition-all overflow-hidden"
+      className="group block h-full min-h-[130px] rounded-xl border border-gray-200 bg-white p-4 sm:p-5 hover:border-gray-400 hover:shadow-md transition-all overflow-hidden"
     >
       {/* ── Mobile layout (<640px) — stacked vertical ── */}
       <div className="flex flex-col sm:hidden">
