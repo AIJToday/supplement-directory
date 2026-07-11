@@ -33,7 +33,7 @@ export function FilterBar() {
     } else {
       params.delete(key);
     }
-    router.push(`/influencers?${params.toString()}`);
+    router.push(`/?${params.toString()}`);
   };
 
   return (
@@ -69,7 +69,7 @@ export function FilterBar() {
       {/* Clear filters */}
       {(activeCategory || activeConfidence) && (
         <button
-          onClick={() => router.push("/influencers")}
+          onClick={() => router.push("/")}
           className="text-sm text-gray-500 underline hover:text-gray-700"
         >
           Clear filters

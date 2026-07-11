@@ -4,6 +4,15 @@ const nextConfig: NextConfig = {
   output: "standalone",
   // better-sqlite3 is a native module — exclude it from webpack bundling
   serverExternalPackages: ["better-sqlite3"],
+  async redirects() {
+    return [
+      {
+        source: "/influencers",
+        destination: "/",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;
