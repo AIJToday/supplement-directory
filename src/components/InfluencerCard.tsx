@@ -20,7 +20,7 @@ export function InfluencerCard({
   return (
     <Link
       href={`/influencers/${influencer.id}`}
-      className="group block h-full rounded-xl border border-gray-200 bg-white p-4 sm:p-5 hover:border-gray-400 hover:shadow-md transition-all"
+      className="group block h-full rounded-xl border border-gray-200 bg-white p-4 sm:p-5 hover:border-gray-400 hover:shadow-md transition-all overflow-hidden"
     >
       {/* ── Mobile layout (<640px) — stacked vertical ── */}
       <div className="flex flex-col sm:hidden">
@@ -99,11 +99,11 @@ export function InfluencerCard({
           </p>
           <div className="mt-2 flex flex-wrap items-center gap-2">
             {(influencer.category_tags || [])
-              .slice(0, 3)
+              .slice(0, 2)
               .map((tag: string) => (
                 <span
                   key={tag}
-                  className="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-600"
+                  className="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-600 truncate max-w-[120px]"
                 >
                   {tag}
                 </span>
