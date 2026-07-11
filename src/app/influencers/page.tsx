@@ -40,18 +40,14 @@ export default async function InfluencersPage({
       ) : (
         <>
           <p className="text-sm text-gray-500">
-            Showing {influencers.length} influencer{influencers.length !== 1 && "s"}
+            Showing {influencers.length} influencer{influencers.length !== 1 && "s"} · Ranked by YouTube subscribers
           </p>
 
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {influencers.map((inf: any, idx: number) => (
               <div key={inf.id} className="flex items-start gap-2 h-full">
                 <div
-                  className={`mt-3 flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold ${
-                    idx < 3
-                      ? "bg-blue-600 text-white"
-                      : "bg-gray-100 text-gray-500"
-                  }`}
+                  className="mt-3 flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold bg-gray-100 text-gray-500"
                 >
                   {idx + 1}
                 </div>
