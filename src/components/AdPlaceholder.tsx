@@ -32,18 +32,6 @@ export function AdPlaceholder({ size = "leaderboard", className = "", bannerSrc 
         />
       )}
 
-      {/* Center message — sits above the image */}
-      <div className="relative z-10 flex flex-col items-center gap-1">
-        <span className="rounded-full bg-white/60 px-3 py-0.5 text-xs font-medium text-gray-400 backdrop-blur-sm select-none">
-          Your ad here
-        </span>
-        <span className="text-[10px] text-gray-300 select-none drop-shadow-sm">
-          {size === "leaderboard" && "728 × 90"}
-          {size === "rectangle" && "300 × 250"}
-          {size === "skyscraper" && "160 × 600"}
-        </span>
-      </div>
-
       {/* Bottom gradient fade */}
       <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gray-200/50 to-transparent" />
     </div>
