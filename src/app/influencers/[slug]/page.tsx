@@ -11,12 +11,6 @@ export const dynamic = "force-dynamic";
 // Time-of-day ordering for grouping
 const TIME_ORDER = ["Morning", "With Breakfast", "Afternoon", "Evening"];
 
-/** Format "YYYY-MM-DD" → "September 26, 1975" */
-function formatBirthDate(dateStr: string): string {
-  const d = new Date(dateStr + "T00:00:00");
-  return d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
-}
-
 export async function generateMetadata({
   params,
 }: {
@@ -81,19 +75,18 @@ export default async function InfluencerProfilePage({
         )}
         <h1 className="text-3xl font-bold text-blue-600">{inf.full_name}</h1>
 
-        {/* Birth year as the first sentence — prominent lead */}
-        {inf.birth_year && (
-          <p className="text-lg text-gray-700">
-            Born{" "}
-            {inf.birth_date
-              ? formatBirthDate(inf.birth_date)
-              : `in ${inf.birth_year}`}
-            .
+        {/* Birth year integrated into bio as first sentence */}
+        {inf.bio && (
+          <p className="text-gray-600 max-w-lg mx-auto text-sm">
+            {inf.birth_year
+              ? `Born in ${inf.birth_year}, ${inf.bio.charAt(0).toLowerCase() + inf.bio.slice(1)}`
+              : inf.bio}
           </p>
         )}
-
-        {inf.bio && (
-          <p className="text-gray-600 max-w-lg mx-auto text-sm">{inf.bio}</p>
+        {!inf.bio && inf.birth_year && (
+          <p className="text-gray-600 max-w-lg mx-auto text-sm">
+            Born in {inf.birth_year}.
+          </p>
         )}
 
         <a
