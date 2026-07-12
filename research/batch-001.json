@@ -15,7 +15,12 @@
       "channel_url": "https://youtube.com/@hubermanlab",
       "subscriber_count": "6.5M+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["neuroscience", "longevity", "biohacking", "health"],
+      "category_tags": [
+        "neuroscience",
+        "longevity",
+        "biohacking",
+        "health"
+      ],
       "bio": "Neuroscientist and tenured professor at Stanford School of Medicine. Host of the Huberman Lab podcast.",
       "supplement_stack": [
         {
@@ -172,7 +177,9 @@
         }
       ],
       "notes": "Huberman's supplement stack is extensively documented across multiple podcast episodes and his newsletter. He has acknowledged sponsorships from Momentous and Athletic Greens. Stack has evolved over time; this represents most consistently mentioned supplements.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1975,
+      "birth_date": "1975-09-26"
     },
     {
       "id": "bryan-johnson",
@@ -181,7 +188,11 @@
       "channel_url": "https://youtube.com/@bryanjohnson",
       "subscriber_count": "1.2M+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["biohacking", "longevity", "anti-aging"],
+      "category_tags": [
+        "biohacking",
+        "longevity",
+        "anti-aging"
+      ],
       "bio": "Tech entrepreneur and founder of Blueprint, an extreme longevity protocol. Publicly shares all biomarkers, diet, and supplement data.",
       "supplement_stack": [
         {
@@ -319,7 +330,9 @@
         }
       ],
       "notes": "Bryan Johnson's entire Blueprint protocol is public at blueprint.bryanjohnson.com. All supplements are now sold under his own Blueprint brand. His stack is the most extensively documented of any influencer, with regular blood work published.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1977,
+      "birth_date": "1977-08-22"
     },
     {
       "id": "peter-attia",
@@ -328,7 +341,11 @@
       "channel_url": "https://youtube.com/@PeterAttiaMD",
       "subscriber_count": "800K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["longevity", "medicine", "biohacking"],
+      "category_tags": [
+        "longevity",
+        "medicine",
+        "biohacking"
+      ],
       "bio": "Physician specializing in longevity, host of The Drive podcast. Focuses on evidence-based approaches to extending lifespan and healthspan.",
       "supplement_stack": [
         {
@@ -447,7 +464,9 @@
         }
       ],
       "notes": "Peter Attia has been transparent about his supplement stack on his podcast and in various interviews. He emphasizes that supplements are individualized and based on biomarker testing.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1973,
+      "birth_date": "1973-03-19"
     },
     {
       "id": "rhonda-patrick",
@@ -456,7 +475,12 @@
       "channel_url": "https://youtube.com/@FoundMyFitness",
       "subscriber_count": "700K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["nutrition", "longevity", "genetics", "health"],
+      "category_tags": [
+        "nutrition",
+        "longevity",
+        "genetics",
+        "health"
+      ],
       "bio": "PhD in biomedical science. Expert on nutritional health, brain aging, and genetics. Host of the FoundMyFitness podcast.",
       "supplement_stack": [
         {
@@ -556,7 +580,9 @@
         }
       ],
       "notes": "Rhonda Patrick is highly evidence-based and often cites specific studies. Her stack is focused on micronutrient optimization. She frequently discusses her smoothie recipe on podcasts.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1977,
+      "birth_date": null
     },
     {
       "id": "dave-asprey",
@@ -565,7 +591,11 @@
       "channel_url": "https://youtube.com/@daveasprey",
       "subscriber_count": "900K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["biohacking", "nutrition", "longevity"],
+      "category_tags": [
+        "biohacking",
+        "nutrition",
+        "longevity"
+      ],
       "bio": "Founder of Bulletproof, author, and biohacker. Known for Bulletproof Coffee and extensive supplement protocols.",
       "supplement_stack": [
         {
@@ -665,7 +695,9 @@
         }
       ],
       "notes": "Dave Asprey's supplement stack is tied to his Bulletproof brand. He has been open about his extensive protocol in books and on his podcast.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1973,
+      "birth_date": null
     },
     {
       "id": "brad-stanfield",
@@ -674,7 +706,11 @@
       "channel_url": "https://youtube.com/@DrBradStanfield",
       "subscriber_count": "400K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["evidence-based", "longevity", "supplement-reviews"],
+      "category_tags": [
+        "evidence-based",
+        "longevity",
+        "supplement-reviews"
+      ],
       "bio": "Medical doctor focused on evidence-based supplement reviews and longevity research. Known for rigorous analysis of clinical trials.",
       "supplement_stack": [
         {
@@ -774,7 +810,9 @@
         }
       ],
       "notes": "Dr. Stanfield is one of the most rigorous evidence-based supplement reviewers. His stack is relatively conservative and aligned with published research.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1990,
+      "birth_date": null
     },
     {
       "id": "tim-ferriss",
@@ -783,7 +821,11 @@
       "channel_url": "https://youtube.com/@timferriss",
       "subscriber_count": "1.5M+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["biohacking", "productivity", "health"],
+      "category_tags": [
+        "biohacking",
+        "productivity",
+        "health"
+      ],
       "bio": "Author of The 4-Hour Body, angel investor, and host of The Tim Ferriss Show. Pioneer in self-experimentation and biohacking.",
       "supplement_stack": [
         {
@@ -845,7 +887,9 @@
         }
       ],
       "notes": "Tim Ferriss is known for self-experimentation. His supplement recommendations have evolved over time. He's an investor in Athletic Greens.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "birth_year": 1977,
+      "birth_date": "1977-07-20"
     },
     {
       "id": "david-sinclair",
@@ -854,7 +898,12 @@
       "channel_url": "https://youtube.com/@davidsinclair",
       "subscriber_count": "500K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["longevity", "anti-aging", "genetics", "research"],
+      "category_tags": [
+        "longevity",
+        "anti-aging",
+        "genetics",
+        "research"
+      ],
       "bio": "Professor of Genetics at Harvard Medical School. Pioneer in aging research, focusing on sirtuins, NAD+, and resveratrol.",
       "supplement_stack": [
         {
@@ -911,7 +960,7 @@
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
-          "affiliate_details": "Prescription only — not supplement",
+          "affiliate_details": "Prescription only \u2014 not supplement",
           "confidence": "high"
         },
         {
@@ -954,7 +1003,9 @@
         }
       ],
       "notes": "Sinclair's stack is controversial in some circles but has significantly influenced the longevity supplement market. Metformin is prescription-only in most countries.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1969,
+      "birth_date": "1969-06-26"
     },
     {
       "id": "ben-greenfield",
@@ -963,7 +1014,12 @@
       "channel_url": "https://youtube.com/@bengreenfieldlife",
       "subscriber_count": "450K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["biohacking", "fitness", "nutrition", "longevity"],
+      "category_tags": [
+        "biohacking",
+        "fitness",
+        "nutrition",
+        "longevity"
+      ],
       "bio": "Former bodybuilder, Ironman triathlete, and biohacker. Author and host of the Ben Greenfield Life podcast.",
       "supplement_stack": [
         {
@@ -1063,7 +1119,9 @@
         }
       ],
       "notes": "Ben Greenfield owns Kion, so most of his stack is his own brand. He has been transparent about this. His stack is extensive and frequently updated.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1981,
+      "birth_date": "1981-12-20"
     },
     {
       "id": "siim-land",
@@ -1072,7 +1130,12 @@
       "channel_url": "https://youtube.com/@siimland",
       "subscriber_count": "350K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["biohacking", "longevity", "keto", "fasting"],
+      "category_tags": [
+        "biohacking",
+        "longevity",
+        "keto",
+        "fasting"
+      ],
       "bio": "Author and biohacker focused on longevity, metabolic health, and nutrition optimization. Author of Metabolic Autophagy.",
       "supplement_stack": [
         {
@@ -1172,7 +1235,9 @@
         }
       ],
       "notes": "Siim Land has affiliate relationships with some supplement brands (notably DoNotAge). His stack has evolved significantly over time.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "birth_year": 1994,
+      "birth_date": "1994-09-16"
     },
     {
       "id": "thomas-delauer",
@@ -1181,7 +1246,12 @@
       "channel_url": "https://youtube.com/@ThomasDeLauerOfficial",
       "subscriber_count": "3.5M+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["fitness", "nutrition", "keto", "weight-loss"],
+      "category_tags": [
+        "fitness",
+        "nutrition",
+        "keto",
+        "weight-loss"
+      ],
       "bio": "Fitness and nutrition expert focused on keto, intermittent fasting, and metabolic health. One of the most popular fitness nutrition channels.",
       "supplement_stack": [
         {
@@ -1262,7 +1332,9 @@
         }
       ],
       "notes": "DeLauer's supplement stack is relatively moderate compared to his supplement review content. He has partnerships with various brands that change periodically.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "birth_year": 1988,
+      "birth_date": "1988-05-06"
     },
     {
       "id": "derek-mpmd",
@@ -1271,7 +1343,12 @@
       "channel_url": "https://youtube.com/@MorePlatesMoreDates",
       "subscriber_count": "2M+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["fitness", "bodybuilding", "supplement-science", "nootropics"],
+      "category_tags": [
+        "fitness",
+        "bodybuilding",
+        "supplement-science",
+        "nootropics"
+      ],
       "bio": "Deep-dive supplement science analyst. Known for rigorous ingredient analysis and calling out supplement industry practices. Founder of Gorilla Mind.",
       "supplement_stack": [
         {
@@ -1371,7 +1448,9 @@
         }
       ],
       "notes": "Derek owns Gorilla Mind, so his entire stack is his own brand. He's very transparent about ingredients and dosages in his formulas. His content is highly analytical.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1992,
+      "birth_date": null
     },
     {
       "id": "jeff-nippard",
@@ -1380,7 +1459,12 @@
       "channel_url": "https://youtube.com/@JeffNippard",
       "subscriber_count": "4.5M+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["fitness", "bodybuilding", "evidence-based", "nutrition"],
+      "category_tags": [
+        "fitness",
+        "bodybuilding",
+        "evidence-based",
+        "nutrition"
+      ],
       "bio": "Natural bodybuilder and evidence-based fitness educator. Known for comprehensive supplement tier lists and science-backed recommendations.",
       "supplement_stack": [
         {
@@ -1461,7 +1545,9 @@
         }
       ],
       "notes": "Jeff Nippard is evidence-based and relatively conservative with supplements. He's transparent that most supplements beyond protein, creatine, and caffeine have limited evidence.",
-      "confidence": "high"
+      "confidence": "high",
+      "birth_year": 1990,
+      "birth_date": "1990-10-06"
     },
     {
       "id": "mark-hyman",
@@ -1470,7 +1556,11 @@
       "channel_url": "https://youtube.com/@drmarkhyman",
       "subscriber_count": "550K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["functional-medicine", "nutrition", "longevity"],
+      "category_tags": [
+        "functional-medicine",
+        "nutrition",
+        "longevity"
+      ],
       "bio": "Physician, author, and leader in functional medicine. Founder of The UltraWellness Center and host of The Doctor's Farmacy podcast.",
       "supplement_stack": [
         {
@@ -1570,7 +1660,9 @@
         }
       ],
       "notes": "Dr. Hyman's supplement recommendations are based on functional medicine principles. He emphasizes testing before supplementing and individualizes protocols.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "birth_year": 1959,
+      "birth_date": "1959-11-22"
     },
     {
       "id": "gabrielle-lyon",
@@ -1579,7 +1671,12 @@
       "channel_url": "https://youtube.com/@drgabriellelyon",
       "subscriber_count": "300K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["muscle-centric-medicine", "fitness", "nutrition", "longevity"],
+      "category_tags": [
+        "muscle-centric-medicine",
+        "fitness",
+        "nutrition",
+        "longevity"
+      ],
       "bio": "Functional medicine physician focused on muscle-centric medicine. Author of Forever Strong.",
       "supplement_stack": [
         {
@@ -1660,7 +1757,9 @@
         }
       ],
       "notes": "Dr. Lyon has a partnership with Momentous supplements. Her focus is primarily on dietary protein and resistance training; supplements are supplementary.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "birth_year": 1983,
+      "birth_date": "1983-07-04"
     },
     {
       "id": "eric-berg",
@@ -1669,7 +1768,12 @@
       "channel_url": "https://youtube.com/@DrEricBergDC",
       "subscriber_count": "12M+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["keto", "nutrition", "intermittent-fasting", "weight-loss"],
+      "category_tags": [
+        "keto",
+        "nutrition",
+        "intermittent-fasting",
+        "weight-loss"
+      ],
       "bio": "Chiropractor and health educator focused on keto, intermittent fasting, and nutritional solutions. One of the largest health channels on YouTube.",
       "supplement_stack": [
         {
@@ -1769,7 +1873,9 @@
         }
       ],
       "notes": "Dr. Berg sells his own supplement line and recommends his own products almost exclusively. His dosages for vitamin D are higher than standard recommendations (10,000 IU). His advice is controversial among medical professionals.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "birth_year": 1965,
+      "birth_date": "1965-03-31"
     },
     {
       "id": "lex-fridman",
@@ -1778,7 +1884,12 @@
       "channel_url": "https://youtube.com/@lexfridman",
       "subscriber_count": "4.5M+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["science", "productivity", "biohacking", "technology"],
+      "category_tags": [
+        "science",
+        "productivity",
+        "biohacking",
+        "technology"
+      ],
       "bio": "Computer scientist, AI researcher, and host of the Lex Fridman Podcast. Has discussed his health and supplement routines with guests.",
       "supplement_stack": [
         {
@@ -1840,7 +1951,9 @@
         }
       ],
       "notes": "Lex Fridman's supplement stack is minimal and not a major focus of his content. His AG1 sponsorship is well-known.",
-      "confidence": "low"
+      "confidence": "low",
+      "birth_year": 1983,
+      "birth_date": "1983-08-15"
     },
     {
       "id": "andy-galpin",
@@ -1849,7 +1962,12 @@
       "channel_url": "https://youtube.com/@drandygalpin",
       "subscriber_count": "200K+",
       "subs_checked_date": "2026-06-20",
-      "category_tags": ["exercise-science", "fitness", "nutrition", "supplements"],
+      "category_tags": [
+        "exercise-science",
+        "fitness",
+        "nutrition",
+        "supplements"
+      ],
       "bio": "Professor of Kinesiology at CSU Fullerton. Expert in exercise physiology, human performance, and sports supplements. Frequent Huberman Lab collaborator.",
       "supplement_stack": [
         {
@@ -1930,7 +2048,9 @@
         }
       ],
       "notes": "Andy Galpin is research-focused and evidence-based. His supplement recommendations are conservative and aligned with the scientific literature. He collaborated extensively with Huberman on the fitness series.",
-      "confidence": "medium"
+      "confidence": "medium",
+      "birth_year": 1983,
+      "birth_date": null
     }
   ],
   "flagged_entries": [
@@ -1941,7 +2061,7 @@
     },
     {
       "influencer": "Eric Berg",
-      "issue": "Recommends only his own brand. Vitamin D dosage (10,000 IU) exceeds standard recommendations. Chiropractor, not MD — medical advice should be verified. Some claims disputed by medical community.",
+      "issue": "Recommends only his own brand. Vitamin D dosage (10,000 IU) exceeds standard recommendations. Chiropractor, not MD \u2014 medical advice should be verified. Some claims disputed by medical community.",
       "severity": "warning"
     },
     {
@@ -1956,7 +2076,7 @@
     },
     {
       "influencer": "Ben Greenfield",
-      "issue": "All supplements listed are his own brand (Kion). Extensive stack — some supplements lack strong evidence. Commercial interest bias.",
+      "issue": "All supplements listed are his own brand (Kion). Extensive stack \u2014 some supplements lack strong evidence. Commercial interest bias.",
       "severity": "info"
     },
     {
@@ -1966,7 +2086,7 @@
     },
     {
       "influencer": "Multiple influencers",
-      "issue": "AG1 appears in stacks of Huberman, Attia, Ferriss, and Fridman — all have sponsorship/affiliate relationships. Cross-reference required.",
+      "issue": "AG1 appears in stacks of Huberman, Attia, Ferriss, and Fridman \u2014 all have sponsorship/affiliate relationships. Cross-reference required.",
       "severity": "info"
     }
   ],

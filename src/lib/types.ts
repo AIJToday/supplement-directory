@@ -7,6 +7,8 @@ export interface Influencer {
   subscriber_count: string | null;
   subs_checked_date: string | null;
   bio: string | null;
+  birth_year: number | null;
+  birth_date: string | null;
   profile_image_url: string | null;
   category_tags: string[];
   created_at: string;

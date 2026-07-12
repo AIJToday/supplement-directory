@@ -4,7 +4,7 @@
     "date_generated": "2026-07-09",
     "total_influencers": 4,
     "total_supplements": 25,
-    "methodology": "Subscriber counts verified live via YouTube channel pages. Supplement stacks compiled from publicly documented routines across videos, podcasts, and published protocols. Firecrawl API unavailable during this batch — some supplement details sourced from well-known public statements by these influencers.",
+    "methodology": "Subscriber counts verified live via YouTube channel pages. Supplement stacks compiled from publicly documented routines across videos, podcasts, and published protocols. Firecrawl API unavailable during this batch \u2014 some supplement details sourced from well-known public statements by these influencers.",
     "notes": "Paul Saladino owns Heart & Soil (organ supplements) and Lineage Provisions. Layne Norton owns Outwork Nutrition (supplements) and Carbon (app). Mike Israetel's RP Strength sells its own supplement line. Sten Ekberg owns Euvexia (electrolytes). All verified subscriber counts as of 2026-07-09."
   },
   "influencers": [
@@ -15,7 +15,12 @@
       "channel_url": "https://youtube.com/@paulsaladinomd",
       "subscriber_count": "1.14M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["nutrition", "carnivore", "longevity", "biohacking"],
+      "category_tags": [
+        "nutrition",
+        "carnivore",
+        "longevity",
+        "biohacking"
+      ],
       "bio": "Double board-certified MD, author of 'The Carnivore Code,' and leading advocate of the animal-based diet. Hosts the Paul Saladino MD podcast.",
       "profile_image_url": "/influencers/paul-saladino.jpg",
       "supplement_stack": [
@@ -114,7 +119,9 @@
           "affiliate_details": null,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1977,
+      "birth_date": "1977-06-29"
     },
     {
       "id": "layne-norton",
@@ -123,8 +130,14 @@
       "channel_url": "https://youtube.com/@biolayne1",
       "subscriber_count": "438K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["evidence-based", "bodybuilding", "nutrition", "exercise-science", "supplement-science"],
-      "bio": "PhD in Nutritional Sciences, professional natural bodybuilder, and powerlifter. Known as 'Biolayne' — one of the most respected evidence-based voices in fitness nutrition. Founder of Outwork Nutrition and the Carbon diet coach app.",
+      "category_tags": [
+        "evidence-based",
+        "bodybuilding",
+        "nutrition",
+        "exercise-science",
+        "supplement-science"
+      ],
+      "bio": "PhD in Nutritional Sciences, professional natural bodybuilder, and powerlifter. Known as 'Biolayne' \u2014 one of the most respected evidence-based voices in fitness nutrition. Founder of Outwork Nutrition and the Carbon diet coach app.",
       "profile_image_url": "/influencers/layne-norton.jpg",
       "supplement_stack": [
         {
@@ -241,7 +254,9 @@
           "affiliate_details": null,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1981,
+      "birth_date": "1981-12-15"
     },
     {
       "id": "mike-israetel",
@@ -250,7 +265,13 @@
       "channel_url": "https://youtube.com/@RenaissancePeriodization",
       "subscriber_count": "3.88M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["exercise-science", "bodybuilding", "nutrition", "fitness", "evidence-based"],
+      "category_tags": [
+        "exercise-science",
+        "bodybuilding",
+        "nutrition",
+        "fitness",
+        "evidence-based"
+      ],
       "bio": "PhD in Sport Physiology, co-founder of Renaissance Periodization (RP Strength), and professor of exercise science. Known for science-based training and nutrition advice delivered with humor. Creator of the RP Hypertrophy App.",
       "profile_image_url": "/influencers/mike-israetel.jpg",
       "supplement_stack": [
@@ -368,7 +389,9 @@
           "affiliate_details": null,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1984,
+      "birth_date": "1984-05-30"
     },
     {
       "id": "sten-ekberg",
@@ -377,7 +400,13 @@
       "channel_url": "https://youtube.com/@drekberg",
       "subscriber_count": "5.38M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["nutrition", "keto", "fasting", "holistic-health", "longevity"],
+      "category_tags": [
+        "nutrition",
+        "keto",
+        "fasting",
+        "holistic-health",
+        "longevity"
+      ],
       "bio": "Olympic decathlete turned holistic doctor and chiropractor. One of the most-watched natural health channels on YouTube, focused on metabolic health, keto, intermittent fasting, and root-cause wellness education.",
       "profile_image_url": "/influencers/sten-ekberg.jpg",
       "supplement_stack": [
@@ -514,26 +543,28 @@
           "affiliate_details": null,
           "confidence": "low"
         }
-      ]
+      ],
+      "birth_year": 1964,
+      "birth_date": "1964-12-25"
     }
   ],
   "flagged_entries": [
     {
       "influencer_id": "paul-saladino",
       "supplement_index": 0,
-      "issue": "Own-brand products (Heart & Soil) — verify unbiased assessment",
+      "issue": "Own-brand products (Heart & Soil) \u2014 verify unbiased assessment",
       "severity": "info"
     },
     {
       "influencer_id": "layne-norton",
       "supplement_index": 0,
-      "issue": "Own-brand products (Outwork Nutrition) — verify unbiased assessment",
+      "issue": "Own-brand products (Outwork Nutrition) \u2014 verify unbiased assessment",
       "severity": "info"
     },
     {
       "influencer_id": "sten-ekberg",
       "supplement_index": 0,
-      "issue": "Own-brand products (Euvexia) — verify unbiased assessment",
+      "issue": "Own-brand products (Euvexia) \u2014 verify unbiased assessment",
       "severity": "info"
     }
   ]

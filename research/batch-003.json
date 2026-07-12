@@ -4,7 +4,7 @@
     "date_generated": "2026-07-09",
     "total_influencers": 23,
     "total_supplements": 80,
-    "methodology": "Subscriber counts verified live via YouTube channel pages. Supplement stacks compiled from publicly documented routines across videos, podcasts, and published protocols. Firecrawl API unavailable during this batch — supplement details sourced from well-known public statements.",
+    "methodology": "Subscriber counts verified live via YouTube channel pages. Supplement stacks compiled from publicly documented routines across videos, podcasts, and published protocols. Firecrawl API unavailable during this batch \u2014 supplement details sourced from well-known public statements.",
     "notes": "Own-brand flags: Jeff Cavaliere=Athlean-X, Josh Axe=Ancient Nutrition, Anthony Balduzzi=Fit Father, Steven Gundry=Gundry MD. All verified subscriber counts as of 2026-07-09."
   },
   "influencers": [
@@ -15,7 +15,12 @@
       "channel_url": "https://youtube.com/@DoctorMike",
       "subscriber_count": "14.9M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["medicine", "health", "evidence-based", "fitness"],
+      "category_tags": [
+        "medicine",
+        "health",
+        "evidence-based",
+        "fitness"
+      ],
       "bio": "Board-certified family medicine physician and one of YouTube's most-followed doctors. Known for reacting to medical TV shows and debunking health misinformation with evidence-based analysis.",
       "profile_image_url": "/influencers/doctor-mike-varshavski.jpg",
       "supplement_stack": [
@@ -55,7 +60,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1989,
+      "birth_date": "1989-11-12"
     },
     {
       "id": "bobby-parrish",
@@ -64,7 +71,11 @@
       "channel_url": "https://youtube.com/@BobbyParrish",
       "subscriber_count": "10.8M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["nutrition", "supplement-reviews", "health"],
+      "category_tags": [
+        "nutrition",
+        "supplement-reviews",
+        "health"
+      ],
       "bio": "Creator of FlavCity, one of the largest food and supplement review channels on YouTube. Known for grocery store tours, product reviews, and meal prep content focused on clean ingredients and label transparency.",
       "profile_image_url": "/influencers/bobby-parrish.jpg",
       "supplement_stack": [
@@ -140,7 +151,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1979,
+      "birth_date": "1979-01-06"
     },
     {
       "id": "jeremy-ethier",
@@ -149,7 +162,12 @@
       "channel_url": "https://youtube.com/@JeremyEthier",
       "subscriber_count": "7.81M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["exercise-science", "fitness", "evidence-based", "bodybuilding"],
+      "category_tags": [
+        "exercise-science",
+        "fitness",
+        "evidence-based",
+        "bodybuilding"
+      ],
       "bio": "Kinesiologist and NASM-certified trainer known for deeply researched, science-based fitness content. Founder of Built With Science, one of the most analytical voices in evidence-based training and nutrition.",
       "profile_image_url": "/influencers/jeremy-ethier.jpg",
       "supplement_stack": [
@@ -165,7 +183,7 @@
           "source_video_url": "https://youtube.com/watch?v=example3",
           "source_timestamp": "0:00",
           "source_date": "2023-11-10",
-          "transcript_excerpt": "Whey protein is just food — it helps me hit my daily protein target conveniently...",
+          "transcript_excerpt": "Whey protein is just food \u2014 it helps me hit my daily protein target conveniently...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -225,7 +243,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1995,
+      "birth_date": "1995-08-29"
     },
     {
       "id": "jeff-cavaliere",
@@ -234,7 +254,12 @@
       "channel_url": "https://youtube.com/@athleanx",
       "subscriber_count": "4.93M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["exercise-science", "fitness", "bodybuilding", "nutrition"],
+      "category_tags": [
+        "exercise-science",
+        "fitness",
+        "bodybuilding",
+        "nutrition"
+      ],
       "bio": "Former head physical therapist and strength coach for the New York Mets. Creator of ATHLEAN-X, one of the most respected fitness channels on YouTube known for anatomy-based training advice and supplement formulation.",
       "profile_image_url": "/influencers/jeff-cavaliere.jpg",
       "supplement_stack": [
@@ -292,7 +317,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1975,
+      "birth_date": "1975-06-28"
     },
     {
       "id": "chris-williamson",
@@ -301,7 +328,12 @@
       "channel_url": "https://youtube.com/@ChrisWillx",
       "subscriber_count": "4.32M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["health", "biohacking", "fitness", "productivity"],
+      "category_tags": [
+        "health",
+        "biohacking",
+        "fitness",
+        "productivity"
+      ],
       "bio": "Host of Modern Wisdom, one of the world's top podcasts exploring health, performance, and human behavior through long-form conversations with leading thinkers. Former professional party promoter turned self-improvement advocate.",
       "profile_image_url": "/influencers/chris-williamson.jpg",
       "supplement_stack": [
@@ -317,7 +349,7 @@
           "source_video_url": "https://youtube.com/watch?v=example5",
           "source_timestamp": "0:00",
           "source_date": "2024-02-28",
-          "transcript_excerpt": "AG1 is the foundation — I've been taking it for years...",
+          "transcript_excerpt": "AG1 is the foundation \u2014 I've been taking it for years...",
           "is_sponsored": true,
           "is_own_brand": false,
           "has_affiliate_link": true,
@@ -353,13 +385,15 @@
           "source_video_url": "https://youtube.com/watch?v=example5",
           "source_timestamp": "5:30",
           "source_date": "2024-02-28",
-          "transcript_excerpt": "Magnesium threonate crosses the blood-brain barrier — I've noticed real cognitive benefits...",
+          "transcript_excerpt": "Magnesium threonate crosses the blood-brain barrier \u2014 I've noticed real cognitive benefits...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1988,
+      "birth_date": "1988-02-23"
     },
     {
       "id": "josh-axe",
@@ -368,7 +402,12 @@
       "channel_url": "https://youtube.com/@drjoshaxe",
       "subscriber_count": "2.6M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["nutrition", "functional-medicine", "supplement-science", "health"],
+      "category_tags": [
+        "nutrition",
+        "functional-medicine",
+        "supplement-science",
+        "health"
+      ],
       "bio": "Doctor of natural medicine, chiropractor, and co-founder of Ancient Nutrition. Author of multiple bestselling books on gut health, keto diet, and natural remedies.",
       "profile_image_url": "/influencers/josh-axe.jpg",
       "supplement_stack": [
@@ -384,7 +423,7 @@
           "source_video_url": "https://youtube.com/watch?v=example6",
           "source_timestamp": "0:00",
           "source_date": "2023-09-01",
-          "transcript_excerpt": "Multi collagen is the foundation of my supplement routine — types I, II, III, V, and X...",
+          "transcript_excerpt": "Multi collagen is the foundation of my supplement routine \u2014 types I, II, III, V, and X...",
           "is_sponsored": false,
           "is_own_brand": true,
           "has_affiliate_link": false,
@@ -420,13 +459,15 @@
           "source_video_url": "https://youtube.com/watch?v=example6",
           "source_timestamp": "3:00",
           "source_date": "2023-09-01",
-          "transcript_excerpt": "Gut health is where everything starts — a good probiotic is non-negotiable...",
+          "transcript_excerpt": "Gut health is where everything starts \u2014 a good probiotic is non-negotiable...",
           "is_sponsored": false,
           "is_own_brand": true,
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1981,
+      "birth_date": "1981-08-18"
     },
     {
       "id": "ben-patrick",
@@ -435,7 +476,12 @@
       "channel_url": "https://youtube.com/@thekneesovertoesguy",
       "subscriber_count": "1.89M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["exercise-science", "fitness", "rehabilitation", "health"],
+      "category_tags": [
+        "exercise-science",
+        "fitness",
+        "rehabilitation",
+        "health"
+      ],
       "bio": "Creator of the ATG (Athletic Truth Group) system for knee and joint rehabilitation. Known for helping thousands reverse chronic knee pain through progressive, science-informed mobility and strength training.",
       "profile_image_url": "/influencers/ben-patrick.jpg",
       "supplement_stack": [
@@ -493,7 +539,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1991,
+      "birth_date": "1991-06-24"
     },
     {
       "id": "mindy-pelz",
@@ -502,7 +550,12 @@
       "channel_url": "https://youtube.com/@DrMindyPelz",
       "subscriber_count": "1.57M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["fasting", "nutrition", "health", "functional-medicine"],
+      "category_tags": [
+        "fasting",
+        "nutrition",
+        "health",
+        "functional-medicine"
+      ],
       "bio": "Chiropractor and women's health advocate known for pioneering fasting protocols tailored to women's hormonal cycles. Author of 'Fast Like a Girl' and leading voice in metabolic health.",
       "profile_image_url": "/influencers/mindy-pelz.jpg",
       "supplement_stack": [
@@ -578,7 +631,9 @@
           "has_affiliate_link": true,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1970,
+      "birth_date": null
     },
     {
       "id": "jason-fung",
@@ -587,7 +642,12 @@
       "channel_url": "https://youtube.com/@drjasonfung",
       "subscriber_count": "1.43M",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["fasting", "nutrition", "keto", "health-science"],
+      "category_tags": [
+        "fasting",
+        "nutrition",
+        "keto",
+        "health-science"
+      ],
       "bio": "Nephrologist and world-leading expert on intermittent fasting and low-carb approaches to obesity and type 2 diabetes. Author of 'The Obesity Code' and 'The Diabetes Code.' Co-founder of The Fasting Method.",
       "profile_image_url": "/influencers/jason-fung.jpg",
       "supplement_stack": [
@@ -627,7 +687,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1973,
+      "birth_date": null
     },
     {
       "id": "adam-sinicki",
@@ -636,7 +698,12 @@
       "channel_url": "https://youtube.com/@thebioneer",
       "subscriber_count": "951K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["biohacking", "fitness", "nootropics", "exercise-science"],
+      "category_tags": [
+        "biohacking",
+        "fitness",
+        "nootropics",
+        "exercise-science"
+      ],
       "bio": "Self-described 'biohacker' who explores functional fitness, brain training, and nootropic supplementation. Known for synthesizing neuroscience, training science, and self-experimentation into practical content.",
       "profile_image_url": "/influencers/adam-sinicki.jpg",
       "supplement_stack": [
@@ -652,7 +719,7 @@
           "source_video_url": "https://youtube.com/watch?v=example10",
           "source_timestamp": "0:00",
           "source_date": "2023-12-01",
-          "transcript_excerpt": "Creatine is the OG nootropic — it benefits the brain as much as the body...",
+          "transcript_excerpt": "Creatine is the OG nootropic \u2014 it benefits the brain as much as the body...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -688,13 +755,15 @@
           "source_video_url": "https://youtube.com/watch?v=example10",
           "source_timestamp": "4:00",
           "source_date": "2023-12-01",
-          "transcript_excerpt": "DHA from fish oil is brain fuel — I notice the difference cognitively...",
+          "transcript_excerpt": "DHA from fish oil is brain fuel \u2014 I notice the difference cognitively...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1987,
+      "birth_date": "1987-08-06"
     },
     {
       "id": "anthony-balduzzi",
@@ -703,7 +772,12 @@
       "channel_url": "https://youtube.com/@FitFatherProject",
       "subscriber_count": "806K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["fitness", "nutrition", "health", "supplement-science"],
+      "category_tags": [
+        "fitness",
+        "nutrition",
+        "health",
+        "supplement-science"
+      ],
       "bio": "Naturopathic doctor and founder of the Fit Father Project and Fit Mother Project, helping busy parents over 40 lose weight and build sustainable health habits through evidence-based nutrition and training.",
       "profile_image_url": "/influencers/anthony-balduzzi.jpg",
       "supplement_stack": [
@@ -755,13 +829,15 @@
           "source_video_url": "https://youtube.com/watch?v=example11",
           "source_timestamp": "4:00",
           "source_date": "2024-02-10",
-          "transcript_excerpt": "Omega-3s for heart and brain health — critical for men over 40...",
+          "transcript_excerpt": "Omega-3s for heart and brain health \u2014 critical for men over 40...",
           "is_sponsored": false,
           "is_own_brand": true,
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1979,
+      "birth_date": null
     },
     {
       "id": "autumn-bates",
@@ -770,7 +846,12 @@
       "channel_url": "https://youtube.com/@AutumnBates",
       "subscriber_count": "733K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["nutrition", "fasting", "fitness", "health"],
+      "category_tags": [
+        "nutrition",
+        "fasting",
+        "fitness",
+        "health"
+      ],
       "bio": "Certified clinical nutritionist known for evidence-based intermittent fasting content targeted at women. Creator of the Complete Intermittent Fasting Bundle program.",
       "profile_image_url": "/influencers/autumn-bates.jpg",
       "supplement_stack": [
@@ -786,7 +867,7 @@
           "source_video_url": "https://youtube.com/watch?v=example12",
           "source_timestamp": "0:00",
           "source_date": "2023-11-20",
-          "transcript_excerpt": "Electrolytes make fasting so much easier — no more headaches or fatigue...",
+          "transcript_excerpt": "Electrolytes make fasting so much easier \u2014 no more headaches or fatigue...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -828,7 +909,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1993,
+      "birth_date": "1993-06-01"
     },
     {
       "id": "mark-bell",
@@ -837,7 +920,12 @@
       "channel_url": "https://youtube.com/@MarkBellsPowerProject",
       "subscriber_count": "645K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["fitness", "bodybuilding", "nutrition", "supplement-science"],
+      "category_tags": [
+        "fitness",
+        "bodybuilding",
+        "nutrition",
+        "supplement-science"
+      ],
       "bio": "Professional powerlifter, inventor of the Sling Shot, and host of Mark Bell's Power Project podcast. Known for no-BS supplement reviews and training advice bridging powerlifting and general fitness.",
       "profile_image_url": "/influencers/mark-bell.jpg",
       "supplement_stack": [
@@ -853,7 +941,7 @@
           "source_video_url": "https://youtube.com/watch?v=example13",
           "source_timestamp": "0:00",
           "source_date": "2023-10-30",
-          "transcript_excerpt": "I go through 4-5 pounds of protein powder a week — it's just convenient nutrition...",
+          "transcript_excerpt": "I go through 4-5 pounds of protein powder a week \u2014 it's just convenient nutrition...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -871,7 +959,7 @@
           "source_video_url": "https://youtube.com/watch?v=example13",
           "source_timestamp": "2:00",
           "source_date": "2023-10-30",
-          "transcript_excerpt": "Creatine is the most proven supplement in the game — everyone should take it...",
+          "transcript_excerpt": "Creatine is the most proven supplement in the game \u2014 everyone should take it...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -889,13 +977,15 @@
           "source_video_url": "https://youtube.com/watch?v=example13",
           "source_timestamp": "4:00",
           "source_date": "2023-10-30",
-          "transcript_excerpt": "Gorilla Mode is my go-to pre-workout — great energy without the crash...",
+          "transcript_excerpt": "Gorilla Mode is my go-to pre-workout \u2014 great energy without the crash...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1977,
+      "birth_date": null
     },
     {
       "id": "steven-gundry",
@@ -904,7 +994,12 @@
       "channel_url": "https://youtube.com/@drgundry",
       "subscriber_count": "559K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["longevity", "nutrition", "supplement-science", "anti-aging"],
+      "category_tags": [
+        "longevity",
+        "nutrition",
+        "supplement-science",
+        "anti-aging"
+      ],
       "bio": "Former cardiac surgeon turned author and supplement formulator. Known for the Plant Paradox diet and Gundry MD line of supplements focused on lectin-free nutrition and longevity.",
       "profile_image_url": "/influencers/steven-gundry.jpg",
       "supplement_stack": [
@@ -920,7 +1015,7 @@
           "source_video_url": "https://youtube.com/watch?v=example14",
           "source_timestamp": "0:00",
           "source_date": "2023-09-15",
-          "transcript_excerpt": "Vital Reds is my polyphenol concentrate — 34 superfruits in one scoop...",
+          "transcript_excerpt": "Vital Reds is my polyphenol concentrate \u2014 34 superfruits in one scoop...",
           "is_sponsored": false,
           "is_own_brand": true,
           "has_affiliate_link": false,
@@ -938,7 +1033,7 @@
           "source_video_url": "https://youtube.com/watch?v=example14",
           "source_timestamp": "2:00",
           "source_date": "2023-09-15",
-          "transcript_excerpt": "Gut health is the foundation of my longevity protocol — prebiotics, probiotics, and postbiotics...",
+          "transcript_excerpt": "Gut health is the foundation of my longevity protocol \u2014 prebiotics, probiotics, and postbiotics...",
           "is_sponsored": false,
           "is_own_brand": true,
           "has_affiliate_link": false,
@@ -956,7 +1051,7 @@
           "source_video_url": "https://youtube.com/watch?v=example14",
           "source_timestamp": "4:00",
           "source_date": "2023-09-15",
-          "transcript_excerpt": "Energy Renew supports mitochondrial health — it's my natural alternative to caffeine...",
+          "transcript_excerpt": "Energy Renew supports mitochondrial health \u2014 it's my natural alternative to caffeine...",
           "is_sponsored": false,
           "is_own_brand": true,
           "has_affiliate_link": false,
@@ -980,7 +1075,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1950,
+      "birth_date": "1950-07-11"
     },
     {
       "id": "max-lugavere",
@@ -989,7 +1086,12 @@
       "channel_url": "https://youtube.com/@maxlugavere",
       "subscriber_count": "275K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["brain-health", "nutrition", "biohacking", "anti-aging"],
+      "category_tags": [
+        "brain-health",
+        "nutrition",
+        "biohacking",
+        "anti-aging"
+      ],
       "bio": "Health and science journalist, filmmaker, and author of 'Genius Foods' and 'The Genius Life.' Known for evidence-based content on brain health, nutrition, and preventing neurodegenerative disease.",
       "profile_image_url": "/influencers/max-lugavere.jpg",
       "supplement_stack": [
@@ -1005,7 +1107,7 @@
           "source_video_url": "https://youtube.com/watch?v=example15",
           "source_timestamp": "0:00",
           "source_date": "2024-01-08",
-          "transcript_excerpt": "DHA is literally brain food — it's the most important supplement for cognitive health...",
+          "transcript_excerpt": "DHA is literally brain food \u2014 it's the most important supplement for cognitive health...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -1023,7 +1125,7 @@
           "source_video_url": "https://youtube.com/watch?v=example15",
           "source_timestamp": "2:30",
           "source_date": "2024-01-08",
-          "transcript_excerpt": "Creatine for brain energy metabolism — not just for the gym...",
+          "transcript_excerpt": "Creatine for brain energy metabolism \u2014 not just for the gym...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -1065,7 +1167,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1982,
+      "birth_date": null
     },
     {
       "id": "ken-berry",
@@ -1074,7 +1178,12 @@
       "channel_url": "https://youtube.com/@KenDBerryMD",
       "subscriber_count": "214K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["carnivore", "keto", "nutrition", "fitness"],
+      "category_tags": [
+        "carnivore",
+        "keto",
+        "nutrition",
+        "fitness"
+      ],
       "bio": "Board-certified family physician and leading advocate of the Proper Human Diet (carnivore/keto). Author of 'Lies My Doctor Told Me' and known for practical, no-nonsense metabolic health advice.",
       "profile_image_url": "/influencers/ken-berry.jpg",
       "supplement_stack": [
@@ -1090,7 +1199,7 @@
           "source_video_url": "https://youtube.com/watch?v=example16",
           "source_timestamp": "0:00",
           "source_date": "2023-07-20",
-          "transcript_excerpt": "Electrolytes are the one supplement I recommend to every carnivore — potassium, sodium, magnesium...",
+          "transcript_excerpt": "Electrolytes are the one supplement I recommend to every carnivore \u2014 potassium, sodium, magnesium...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -1114,7 +1223,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1967,
+      "birth_date": "1967-12-09"
     },
     {
       "id": "ben-bikman",
@@ -1123,7 +1234,12 @@
       "channel_url": "https://youtube.com/@InsulinIQ",
       "subscriber_count": "210K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["metabolic-health", "keto", "nutrition", "health-science"],
+      "category_tags": [
+        "metabolic-health",
+        "keto",
+        "nutrition",
+        "health-science"
+      ],
       "bio": "PhD in bioenergetics, professor at BYU, and leading researcher on insulin resistance and metabolic health. Author of 'Why We Get Sick' and co-founder of HLTH Code meal replacement.",
       "profile_image_url": "/influencers/ben-bikman.jpg",
       "supplement_stack": [
@@ -1139,7 +1255,7 @@
           "source_video_url": "https://youtube.com/watch?v=example17",
           "source_timestamp": "0:00",
           "source_date": "2024-03-05",
-          "transcript_excerpt": "I formulated HLTH Code to be the perfect low-carb meal — I have one every morning...",
+          "transcript_excerpt": "I formulated HLTH Code to be the perfect low-carb meal \u2014 I have one every morning...",
           "is_sponsored": false,
           "is_own_brand": true,
           "has_affiliate_link": false,
@@ -1163,7 +1279,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1977,
+      "birth_date": null
     },
     {
       "id": "rangan-chatterjee",
@@ -1172,7 +1290,12 @@
       "channel_url": "https://youtube.com/@DrChatterjeeRangan",
       "subscriber_count": "145K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["holistic-health", "nutrition", "health", "functional-medicine"],
+      "category_tags": [
+        "holistic-health",
+        "nutrition",
+        "health",
+        "functional-medicine"
+      ],
       "bio": "British physician, host of the Feel Better Live More podcast, and author of the 'Four Pillar Plan' series. One of the UK's most influential doctors known for lifestyle medicine and root-cause health approaches.",
       "profile_image_url": "/influencers/rangan-chatterjee.jpg",
       "supplement_stack": [
@@ -1224,13 +1347,15 @@
           "source_video_url": "https://youtube.com/watch?v=example18",
           "source_timestamp": "4:00",
           "source_date": "2023-12-10",
-          "transcript_excerpt": "Magnesium for sleep and stress resilience — hugely underrated...",
+          "transcript_excerpt": "Magnesium for sleep and stress resilience \u2014 hugely underrated...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1977,
+      "birth_date": null
     },
     {
       "id": "nick-bare",
@@ -1239,8 +1364,13 @@
       "channel_url": "https://youtube.com/@nickbarefitness",
       "subscriber_count": "132K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["fitness", "nutrition", "bodybuilding", "supplement-science"],
-      "bio": "Army veteran, ultra-endurance athlete, and founder of Bare Performance Nutrition (BPN). Known for documenting his training — from bodybuilding to Ironman triathlons and ultra-marathons.",
+      "category_tags": [
+        "fitness",
+        "nutrition",
+        "bodybuilding",
+        "supplement-science"
+      ],
+      "bio": "Army veteran, ultra-endurance athlete, and founder of Bare Performance Nutrition (BPN). Known for documenting his training \u2014 from bodybuilding to Ironman triathlons and ultra-marathons.",
       "profile_image_url": "/influencers/nick-bare.jpg",
       "supplement_stack": [
         {
@@ -1251,7 +1381,7 @@
           "frequency": "daily",
           "timing": "post-workout",
           "form": "powder",
-          "source_video_title": "My Full Supplement Stack — What I Actually Take",
+          "source_video_title": "My Full Supplement Stack \u2014 What I Actually Take",
           "source_video_url": "https://youtube.com/watch?v=example19",
           "source_timestamp": "0:00",
           "source_date": "2024-02-14",
@@ -1269,11 +1399,11 @@
           "frequency": "daily",
           "timing": "morning",
           "form": "powder",
-          "source_video_title": "My Full Supplement Stack — What I Actually Take",
+          "source_video_title": "My Full Supplement Stack \u2014 What I Actually Take",
           "source_video_url": "https://youtube.com/watch?v=example19",
           "source_timestamp": "1:30",
           "source_date": "2024-02-14",
-          "transcript_excerpt": "Creatine is my most consistent supplement — performance and cognitive benefits...",
+          "transcript_excerpt": "Creatine is my most consistent supplement \u2014 performance and cognitive benefits...",
           "is_sponsored": false,
           "is_own_brand": true,
           "has_affiliate_link": false,
@@ -1287,7 +1417,7 @@
           "frequency": "on training days",
           "timing": "pre-workout",
           "form": "powder",
-          "source_video_title": "My Full Supplement Stack — What I Actually Take",
+          "source_video_title": "My Full Supplement Stack \u2014 What I Actually Take",
           "source_video_url": "https://youtube.com/watch?v=example19",
           "source_timestamp": "3:00",
           "source_date": "2024-02-14",
@@ -1305,7 +1435,7 @@
           "frequency": "daily",
           "timing": "during training",
           "form": "powder",
-          "source_video_title": "My Full Supplement Stack — What I Actually Take",
+          "source_video_title": "My Full Supplement Stack \u2014 What I Actually Take",
           "source_video_url": "https://youtube.com/watch?v=example19",
           "source_timestamp": "5:00",
           "source_date": "2024-02-14",
@@ -1315,7 +1445,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1990,
+      "birth_date": "1990-08-01"
     },
     {
       "id": "eric-helms",
@@ -1324,8 +1456,13 @@
       "channel_url": "https://youtube.com/@Team3DMJ",
       "subscriber_count": "122K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["evidence-based", "bodybuilding", "exercise-science", "nutrition"],
-      "bio": "PhD in strength and conditioning, professional natural bodybuilder, and coach for 3D Muscle Journey. Co-author of the Muscle and Strength Pyramids books — one of the most cited evidence-based coaches in fitness.",
+      "category_tags": [
+        "evidence-based",
+        "bodybuilding",
+        "exercise-science",
+        "nutrition"
+      ],
+      "bio": "PhD in strength and conditioning, professional natural bodybuilder, and coach for 3D Muscle Journey. Co-author of the Muscle and Strength Pyramids books \u2014 one of the most cited evidence-based coaches in fitness.",
       "profile_image_url": "/influencers/eric-helms.jpg",
       "supplement_stack": [
         {
@@ -1340,7 +1477,7 @@
           "source_video_url": "https://youtube.com/watch?v=example20",
           "source_timestamp": "0:00",
           "source_date": "2023-08-25",
-          "transcript_excerpt": "Whey protein is food — I use it to hit my protein target, nothing more, nothing less...",
+          "transcript_excerpt": "Whey protein is food \u2014 I use it to hit my protein target, nothing more, nothing less...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -1358,7 +1495,7 @@
           "source_video_url": "https://youtube.com/watch?v=example20",
           "source_timestamp": "1:30",
           "source_date": "2023-08-25",
-          "transcript_excerpt": "If I had to pick one supplement, it's creatine — the evidence is ironclad...",
+          "transcript_excerpt": "If I had to pick one supplement, it's creatine \u2014 the evidence is ironclad...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -1382,7 +1519,9 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1985,
+      "birth_date": null
     },
     {
       "id": "tom-bilyeu",
@@ -1391,7 +1530,12 @@
       "channel_url": "https://youtube.com/@TomBilyeu",
       "subscriber_count": "118K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["biohacking", "productivity", "nutrition", "health"],
+      "category_tags": [
+        "biohacking",
+        "productivity",
+        "nutrition",
+        "health"
+      ],
       "bio": "Co-founder of Quest Nutrition (sold for $1B) and Impact Theory. Known for deep-dive interviews on mindset, health optimization, and performance. Documented his own health transformation publicly.",
       "profile_image_url": "/influencers/tom-bilyeu.jpg",
       "supplement_stack": [
@@ -1407,7 +1551,7 @@
           "source_video_url": "https://youtube.com/watch?v=example21",
           "source_timestamp": "0:00",
           "source_date": "2024-04-01",
-          "transcript_excerpt": "AG1 is the base layer — I've been using it ever since selling Quest...",
+          "transcript_excerpt": "AG1 is the base layer \u2014 I've been using it ever since selling Quest...",
           "is_sponsored": true,
           "is_own_brand": false,
           "has_affiliate_link": true,
@@ -1425,7 +1569,7 @@
           "source_video_url": "https://youtube.com/watch?v=example21",
           "source_timestamp": "2:00",
           "source_date": "2024-04-01",
-          "transcript_excerpt": "High-dose omega-3 for brain health — non-negotiable for me...",
+          "transcript_excerpt": "High-dose omega-3 for brain health \u2014 non-negotiable for me...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -1443,13 +1587,15 @@
           "source_video_url": "https://youtube.com/watch?v=example21",
           "source_timestamp": "4:30",
           "source_date": "2024-04-01",
-          "transcript_excerpt": "Magnesium threonate for the specific cognitive benefits — I notice the difference...",
+          "transcript_excerpt": "Magnesium threonate for the specific cognitive benefits \u2014 I notice the difference...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1976,
+      "birth_date": "1976-03-30"
     },
     {
       "id": "will-bulsiewicz",
@@ -1458,7 +1604,12 @@
       "channel_url": "https://youtube.com/@theguthealthmd",
       "subscriber_count": "106K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["gut-health", "nutrition", "evidence-based", "health"],
+      "category_tags": [
+        "gut-health",
+        "nutrition",
+        "evidence-based",
+        "health"
+      ],
       "bio": "Board-certified gastroenterologist and author of 'Fiber Fueled.' Known as @theguthealthmd, he is one of the leading voices on gut health, the microbiome, and plant-based nutrition.",
       "profile_image_url": "/influencers/will-bulsiewicz.jpg",
       "supplement_stack": [
@@ -1492,7 +1643,7 @@
           "source_video_url": "https://youtube.com/watch?v=example22",
           "source_timestamp": "2:30",
           "source_date": "2023-10-15",
-          "transcript_excerpt": "I'm selective about probiotics — Seed is one of the few with real science behind it...",
+          "transcript_excerpt": "I'm selective about probiotics \u2014 Seed is one of the few with real science behind it...",
           "is_sponsored": false,
           "is_own_brand": false,
           "has_affiliate_link": false,
@@ -1516,7 +1667,9 @@
           "has_affiliate_link": false,
           "confidence": "low"
         }
-      ]
+      ],
+      "birth_year": 1980,
+      "birth_date": null
     },
     {
       "id": "chris-kresser",
@@ -1525,7 +1678,12 @@
       "channel_url": "https://youtube.com/@ChrisKresser",
       "subscriber_count": "28.1K",
       "subs_checked_date": "2026-07-09",
-      "category_tags": ["functional-medicine", "nutrition", "health", "evidence-based"],
+      "category_tags": [
+        "functional-medicine",
+        "nutrition",
+        "health",
+        "evidence-based"
+      ],
       "bio": "Acupuncturist, practitioner of functional medicine, and New York Times bestselling author. Co-founder of the Kresser Institute and the ADAPT Health Coach Training Program.",
       "profile_image_url": "/influencers/chris-kresser.jpg",
       "supplement_stack": [
@@ -1601,38 +1759,40 @@
           "has_affiliate_link": false,
           "confidence": "medium"
         }
-      ]
+      ],
+      "birth_year": 1974,
+      "birth_date": null
     }
   ],
   "flagged_entries": [
     {
       "influencer_id": "jeff-cavaliere",
       "supplement_index": 0,
-      "issue": "Own-brand products (ATHLEAN-X) — verify unbiased assessment",
+      "issue": "Own-brand products (ATHLEAN-X) \u2014 verify unbiased assessment",
       "severity": "info"
     },
     {
       "influencer_id": "josh-axe",
       "supplement_index": 0,
-      "issue": "Own-brand products (Ancient Nutrition) — verify unbiased assessment",
+      "issue": "Own-brand products (Ancient Nutrition) \u2014 verify unbiased assessment",
       "severity": "info"
     },
     {
       "influencer_id": "anthony-balduzzi",
       "supplement_index": 0,
-      "issue": "Own-brand products (Fit Father Project) — verify unbiased assessment",
+      "issue": "Own-brand products (Fit Father Project) \u2014 verify unbiased assessment",
       "severity": "info"
     },
     {
       "influencer_id": "steven-gundry",
       "supplement_index": 0,
-      "issue": "Own-brand products (Gundry MD) — verify unbiased assessment",
+      "issue": "Own-brand products (Gundry MD) \u2014 verify unbiased assessment",
       "severity": "info"
     },
     {
       "influencer_id": "nick-bare",
       "supplement_index": 0,
-      "issue": "Own-brand products (Bare Performance Nutrition) — verify unbiased assessment",
+      "issue": "Own-brand products (Bare Performance Nutrition) \u2014 verify unbiased assessment",
       "severity": "info"
     }
   ]

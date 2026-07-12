@@ -39,6 +39,8 @@ interface ResearchInfluencer {
   subscriber_count?: string;
   subs_checked_date?: string;
   bio?: string;
+  birth_year?: number;
+  birth_date?: string;
   profile_image_url?: string;
   category_tags: string[];
   supplement_stack: ResearchSupplement[];
@@ -78,6 +80,9 @@ for (const inf of batch.influencers as ResearchInfluencer[]) {
     subscriber_count: inf.subscriber_count,
     subs_checked_date: inf.subs_checked_date,
     bio: inf.bio,
+    birth_year: (inf as any).birth_year,
+    birth_date: (inf as any).birth_date,
+    profile_image_url: inf.profile_image_url,
     category_tags: inf.category_tags,
   });
 

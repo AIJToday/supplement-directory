@@ -29,6 +29,8 @@ export function getDb(): any {
       subscriber_count TEXT,
       subs_checked_date TEXT,
       bio             TEXT,
+      birth_year      INTEGER,
+      birth_date      TEXT,
       profile_image_url TEXT,
       category_tags   TEXT DEFAULT '[]',
       created_at      TEXT DEFAULT (datetime('now')),
@@ -291,13 +293,15 @@ export function insertInfluencer(inf: {
   subscriber_count?: string;
   subs_checked_date?: string;
   bio?: string;
+  birth_year?: number;
+  birth_date?: string;
   profile_image_url?: string;
   category_tags?: string[];
 }) {
   const d = getDb();
   d.prepare(
-    `INSERT OR REPLACE INTO influencers (id, full_name, channel_name, channel_url, subscriber_count, subs_checked_date, bio, profile_image_url, category_tags, updated_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))`
+    `INSERT OR REPLACE INTO influencers (id, full_name, channel_name, channel_url, subscriber_count, subs_checked_date, bio, birth_year, birth_date, profile_image_url, category_tags, updated_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))`
   ).run(
     inf.id,
     inf.full_name,
@@ -306,6 +310,8 @@ export function insertInfluencer(inf: {
     inf.subscriber_count || null,
     inf.subs_checked_date || null,
     inf.bio || null,
+    inf.birth_year || null,
+    inf.birth_date || null,
     inf.profile_image_url || null,
     JSON.stringify(inf.category_tags || []),
   );
