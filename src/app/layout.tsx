@@ -4,12 +4,9 @@ import Link from "next/link";
 import { DisclaimerBar } from "@/components/DisclaimerBar";
 import { AdPlaceholder } from "@/components/AdPlaceholder";
 import { OrganizationSchema } from "@/components/SchemaOrg";
+import { baseMetadata } from "@/lib/metadata";
 
-export const metadata: Metadata = {
-  title: "Daily Dose Directory — What Influencers Actually Take",
-  description:
-    "A transparent directory of YouTube influencers and their daily supplement routines. Every entry sourced from videos with timestamps and sponsorship flags.",
-};
+export const metadata: Metadata = baseMetadata();
 
 export default function RootLayout({
   children,
