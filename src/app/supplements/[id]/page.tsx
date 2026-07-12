@@ -55,7 +55,7 @@ async function SupplementDetailWrapper({
             <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
               <path d="M13.5 21v-7.5H21V21h-7.5zM3 21v-7.5h7.5V21H3zm0-10.5V3h7.5v7.5H3zm10.5 0V3H21v7.5h-7.5z"/>
             </svg>
-            Buy on Amazon
+            Amazon
           </a>
         )}
       </div>
