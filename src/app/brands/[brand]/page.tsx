@@ -1,7 +1,25 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getSupplementsByBrand } from "@/lib/db";
+import { baseMetadata } from "@/lib/metadata";
+import { BreadcrumbSchema } from "@/components/SchemaOrg";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ brand: string }>;
+}): Promise<Metadata> {
+  const { brand } = await params;
+  const decodedBrand = decodeURIComponent(brand);
+  const supps = getSupplementsByBrand(decodedBrand) as any[];
+  return baseMetadata({
+    title: `${decodedBrand} — Supplements, Products & Who Takes Them`,
+    description: `${decodedBrand} has ${supps.length} product${supps.length !== 1 ? "s" : ""} tracked in the Daily Dose Directory. See which YouTube health influencers use ${decodedBrand} supplements, with dosages and timing.`,
+    alternates: { canonical: `/brands/${brand}` },
+  });
+}
 
 export default async function BrandDetailPage({
   params,
@@ -14,6 +32,13 @@ export default async function BrandDetailPage({
 
   return (
     <div className="space-y-8">
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.dailydosedirectory.com" },
+          { name: "Brands", url: "https://www.dailydosedirectory.com/brands" },
+          { name: decodedBrand, url: `https://www.dailydosedirectory.com/brands/${brand}` },
+        ]}
+      />
       <Link href="/brands" className="text-sm text-gray-500 hover:text-gray-700">
         ← Back to all brands
       </Link>

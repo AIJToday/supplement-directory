@@ -26,6 +26,7 @@ export function baseMetadata(overrides?: Partial<Metadata>): Metadata {
           )
         : `${SITE.name} — YouTube Influencer Supplement Stacks`,
       description: overrides?.description || SITE.description,
+      images: [{ url: "/og-image.png", width: 1200, height: 630 }],
     },
     twitter: {
       card: "summary_large_image",
@@ -37,6 +38,7 @@ export function baseMetadata(overrides?: Partial<Metadata>): Metadata {
           )
         : SITE.name,
       description: overrides?.description || SITE.description,
+      images: ["/og-image.png"],
     },
     robots: {
       index: true,

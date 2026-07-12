@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getInfluencerBySlug, getInfluencerStack } from "@/lib/db";
 import { influencerMetadata } from "@/lib/metadata";
 import { InfluencerSchema, BreadcrumbSchema } from "@/components/SchemaOrg";
+import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 import { AdPlaceholder } from "@/components/AdPlaceholder";
 
 export const dynamic = "force-dynamic";
@@ -56,13 +57,13 @@ export default async function InfluencerProfilePage({
 
   return (
     <div className="mx-auto max-w-3xl space-y-8">
-      {/* Back link */}
-      <Link
-        href="/"
-        className="text-sm text-gray-500 hover:text-gray-700"
-      >
-        ← Back to Ranking
-      </Link>
+      {/* Breadcrumb navigation */}
+      <BreadcrumbNav
+        items={[
+          { name: "Home", url: "/" },
+          { name: inf.full_name, url: `/influencers/${inf.id}` },
+        ]}
+      />
 
       {/* Header — centered, blue name, portrait */}
       <div className="text-center space-y-4">
@@ -237,27 +238,17 @@ export default async function InfluencerProfilePage({
       </p>
 
       {/* JSON-LD Structured Data for SEO */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Person",
-            name: inf.full_name,
-            description: inf.bio || `${inf.full_name} is a YouTube content creator in the health & wellness space.`,
-            url: inf.channel_url,
-            sameAs: [inf.channel_url],
-            ...(inf.subscriber_count
-              ? {
-                  interactionStatistic: {
-                    "@type": "InteractionCounter",
-                    interactionType: "https://schema.org/FollowAction",
-                    userInteractionCount: inf.subscriber_count,
-                  },
-                }
-              : {}),
-          }),
-        }}
+      <InfluencerSchema
+        {...inf}
+        supplements={stack.map((entry: any) => ({ ...entry, supplement: entry.supplement }))}
+        stack_count={stack.length}
+        high_confidence_count={stack.filter((e: any) => e.confidence === "high").length}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.dailydosedirectory.com" },
+          { name: inf.full_name, url: `https://www.dailydosedirectory.com/influencers/${inf.id}` },
+        ]}
       />
     </div>
   );

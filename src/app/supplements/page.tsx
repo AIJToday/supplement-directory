@@ -1,7 +1,14 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getAllSupplements } from "@/lib/db";
+import { baseMetadata } from "@/lib/metadata";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = baseMetadata({
+  title: "All Supplements by Category",
+  description: "Browse every supplement tracked in the Daily Dose Directory, organized by category. Compare brands, dosages, and see which influencers take each supplement.",
+});
 
 export default function SupplementsPage() {
   const supplements = getAllSupplements() as any[];

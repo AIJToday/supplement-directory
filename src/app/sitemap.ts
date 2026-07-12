@@ -1,22 +1,30 @@
-import { getAllInfluencers, getAllSupplements } from "@/lib/db";
+import { getAllInfluencers, getAllSupplements, getDb } from "@/lib/db";
 import type { MetadataRoute } from "next";
 
 const BASE_URL = "https://www.dailydosedirectory.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const influencers = getAllInfluencers();
-  const supplements = getAllSupplements();
+  const db = getDb();
+  // Exclude orphan supplements (no influencers use them)
+  const supplements = db
+    .prepare(
+      `SELECT s.* FROM supplements s
+       WHERE EXISTS (SELECT 1 FROM influencer_supplements WHERE supplement_id = s.id)
+       ORDER BY s.product_name`
+    )
+    .all() as any[];
 
   const influencerUrls: MetadataRoute.Sitemap = influencers.map((inf: any) => ({
     url: `${BASE_URL}/influencers/${inf.id}`,
-    lastModified: new Date(),
+    lastModified: inf.updated_at ? new Date(inf.updated_at) : new Date(),
     changeFrequency: "monthly",
     priority: 0.9,
   }));
 
   const supplementUrls: MetadataRoute.Sitemap = supplements.map((supp: any) => ({
     url: `${BASE_URL}/supplements/${supp.id}`,
-    lastModified: new Date(),
+    lastModified: supp.updated_at ? new Date(supp.updated_at) : new Date(),
     changeFrequency: "monthly",
     priority: 0.7,
   }));

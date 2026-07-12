@@ -1,17 +1,31 @@
 import Link from "next/link";
-import { getSupplementById, getSupplementUsers } from "@/lib/db";
+import type { Metadata } from "next";
+import { getSupplementById, getSupplementUsers, getRelatedSupplements } from "@/lib/db";
+import { supplementMetadata } from "@/lib/metadata";
+import { BreadcrumbSchema } from "@/components/SchemaOrg";
+import { BreadcrumbNav } from "@/components/BreadcrumbNav";
 
 export const dynamic = "force-dynamic";
 
-export default function SupplementDetailPage({
+export async function generateMetadata({
   params,
 }: {
   params: Promise<{ id: string }>;
-}) {
-  return <SupplementDetailWrapper params={params} />;
+}): Promise<Metadata> {
+  const { id } = await params;
+  const supp = getSupplementById(parseInt(id, 10)) as any;
+  if (!supp) return {};
+  const users = getSupplementUsers(parseInt(id, 10)) as any[];
+  return supplementMetadata({
+    product_name: supp.product_name,
+    brand: supp.brand,
+    category: supp.category,
+    user_count: users.length,
+    id: supp.id,
+  });
 }
 
-async function SupplementDetailWrapper({
+export default async function SupplementDetailPage({
   params,
 }: {
   params: Promise<{ id: string }>;
@@ -32,12 +46,25 @@ async function SupplementDetailWrapper({
   }
 
   const users = getSupplementUsers(supplementId) as any[];
+  const related = getRelatedSupplements(supp.category, supp.id, 5) as any[];
 
   return (
     <div className="space-y-8">
-      <Link href="/supplements" className="text-sm text-gray-500 hover:text-gray-700">
-        ← Back to all supplements
-      </Link>
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.dailydosedirectory.com" },
+          { name: "Supplements", url: "https://www.dailydosedirectory.com/supplements" },
+          { name: supp.product_name, url: `https://www.dailydosedirectory.com/supplements/${supp.id}` },
+        ]}
+      />
+
+      <BreadcrumbNav
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Supplements", url: "/supplements" },
+          { name: supp.product_name, url: `/supplements/${supp.id}` },
+        ]}
+      />
 
       <div>
         <h1 className="text-3xl font-bold text-gray-900">{supp.product_name}</h1>
@@ -115,6 +142,30 @@ async function SupplementDetailWrapper({
           </div>
         )}
       </section>
+
+      {/* Related Supplements */}
+      {related.length > 0 && (
+        <section>
+          <h2 className="text-xl font-semibold text-gray-900 mb-4">
+            Related {supp.category} supplements
+          </h2>
+          <div className="grid gap-2 sm:grid-cols-2">
+            {related.map((r: any) => (
+              <Link
+                key={r.id}
+                href={`/supplements/${r.id}`}
+                className="flex items-center justify-between rounded-lg border border-gray-200 px-4 py-3 hover:border-gray-400 hover:bg-gray-50 transition-all"
+              >
+                <div>
+                  <span className="font-medium text-gray-900">{r.product_name}</span>
+                  <span className="ml-2 text-xs text-gray-400">{r.brand}</span>
+                </div>
+                <span className="text-xs text-gray-500">{r.user_count} influencer{r.user_count !== 1 ? "s" : ""}</span>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

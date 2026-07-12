@@ -1,6 +1,14 @@
+import { BreadcrumbSchema } from "@/components/SchemaOrg";
+
 export default function AboutPage() {
   return (
     <div className="mx-auto max-w-2xl space-y-10">
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://www.dailydosedirectory.com" },
+          { name: "About", url: "https://www.dailydosedirectory.com/about" },
+        ]}
+      />
       <div>
         <h1 className="text-3xl font-bold text-gray-900">About</h1>
         <p className="mt-2 text-gray-600">

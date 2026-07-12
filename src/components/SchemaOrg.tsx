@@ -112,7 +112,7 @@ export function InfluencerSchema(inf: InfluencerWithStack) {
 
 /* ── Breadcrumb ── */
 
-export function BreadcrumbSchema(items: Array<{ name: string; url: string }>) {
+export function BreadcrumbSchema({ items }: { items: Array<{ name: string; url: string }> }) {
   const json = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",

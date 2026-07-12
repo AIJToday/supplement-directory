@@ -238,6 +238,20 @@ export function getSupplementsByBrand(brand: string) {
     .all(brand);
 }
 
+export function getRelatedSupplements(category: string, excludeId: number, limit: number = 5) {
+  const d = getDb();
+  return d
+    .prepare(
+      `SELECT s.*, (SELECT COUNT(*) FROM influencer_supplements WHERE supplement_id = s.id) as user_count
+      FROM supplements s
+      WHERE s.category = ? AND s.id != ?
+        AND EXISTS (SELECT 1 FROM influencer_supplements WHERE supplement_id = s.id)
+      ORDER BY user_count DESC
+      LIMIT ?`
+    )
+    .all(category, excludeId, limit);
+}
+
 export function searchAll(query: string) {
   const d = getDb();
   const q = `%${query}%`;

@@ -1,8 +1,15 @@
 import { SearchBar } from "@/components/SearchBar";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { searchAll } from "@/lib/db";
+import { baseMetadata } from "@/lib/metadata";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = baseMetadata({
+  title: "Search Influencers & Supplements",
+  description: "Search the Daily Dose Directory for health influencers, supplements, brands, and dosages. Find which YouTube creators take specific vitamins and supplements.",
+});
 
 export default async function SearchPage({
   searchParams,

@@ -1,7 +1,14 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getAllBrands } from "@/lib/db";
+import { baseMetadata } from "@/lib/metadata";
 
 export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = baseMetadata({
+  title: "Supplement Brands Directory",
+  description: "Browse all supplement brands tracked in the Daily Dose Directory. See which products each brand sells and which YouTube health influencers use them.",
+});
 
 export default function BrandsPage() {
   const brands = getAllBrands();
