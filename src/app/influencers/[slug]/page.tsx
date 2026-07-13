@@ -159,7 +159,16 @@ export default async function InfluencerProfilePage({
                     </td>
                     <td className="px-4 py-3 font-medium text-gray-900 align-top text-center">
                       <div className="flex flex-col items-center gap-1.5">
-                        <span>{entry.supplement?.product_name || "—"}</span>
+                        {entry.supplement_id ? (
+                          <Link
+                            href={`/supplements/${entry.supplement_id}`}
+                            className="text-blue-600 hover:underline"
+                          >
+                            {entry.supplement?.product_name || "—"}
+                          </Link>
+                        ) : (
+                          <span>{entry.supplement?.product_name || "—"}</span>
+                        )}
                         {entry.supplement?.amazon_url && (
                           <a
                             href={entry.supplement.amazon_url}
